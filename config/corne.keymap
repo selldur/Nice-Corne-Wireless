@@ -67,9 +67,14 @@
             bindings = <&caps_word>;
         };
 
-        new_combo {
+        combo_enter {
             bindings = <&kp ENTER>;
             key-positions = <38 39>;
+        };
+
+        new_combo {
+            bindings = <&tog 4>;
+            key-positions = <0 12 24>;
         };
     };
 
@@ -120,6 +125,15 @@
 &none         &none         &none    &kp C_PREV  &kp C_NEXT  &kp C_PLAY_PAUSE     &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP   &none  &kp F11  &none
 &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_NXT        &bt BT_CLR          &none         &none         &none   &none  &kp F12  &none
                                      &sys_reset      &trans       &bootloader    &bootloader        &trans    &sys_reset
+            >;
+        };
+
+        Gaming {
+            bindings = <
+&kp ESC           &none  &kp Q             &kp W         &kp E      &none    &none  &none  &none  &none  &none  &none
+  &none  &kp LEFT_SHIFT  &kp A             &kp S         &kp D      &none    &none  &none  &none  &none  &none  &none
+  &none           &none  &none             &none         &none      &none    &none  &none  &none  &none  &none  &none
+                                &kp LEFT_CONTROL  &kp LEFT_ALT  &kp SPACE    &none  &none  &none
             >;
         };
     };
