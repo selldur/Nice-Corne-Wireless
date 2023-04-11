@@ -112,10 +112,10 @@
 
         sym_layer {
             bindings = <
- &kp K_COPY   &kp EXCL     &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp PRINTSCREEN
-&kp K_PASTE  &kp GRAVE  &kp TILDE     &none     &none      &none    &kp MINUS  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH            &none
-  &kp K_CUT  &kp TILDE      &none     &none     &none      &none    &kp UNDER   &kp PLUS         &kp LBRC  &kp RBRC  &kp PIPE            &none
-                                     &trans     &mo 3     &trans       &trans     &trans           &trans
+&kp LC(C)   &kp EXCL     &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET   &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp PRINTSCREEN
+&kp LC(V)  &kp GRAVE  &kp TILDE     &none     &none      &none    &kp MINUS  &kp EQUAL         &kp LBKT  &kp RBKT  &kp BSLH        &kp LC(P)
+&kp LC(X)  &kp TILDE      &none     &none     &none      &none    &kp UNDER   &kp PLUS         &kp LBRC  &kp RBRC  &kp PIPE            &none
+                                   &trans     &mo 3     &trans       &trans     &trans           &trans
             >;
         };
 
